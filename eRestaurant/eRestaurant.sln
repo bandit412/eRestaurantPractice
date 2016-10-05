@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem", "eRestaurantSystem\eRestaurantSystem.csproj", "{A0E1FDAB-756C-4193-A8B8-A0B2380A83E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eRestaurantSystem.Data", "eRestaurantSystem.Data\eRestaurantSystem.Data.csproj", "{D803890C-B711-4FDE-8683-66ED0B1B6408}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "Website\", "{CB6A8337-BED1-45C0-A879-32D44EDAB835}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{a0e1fdab-756c-4193-a8b8-a0b2380a83e3}|eRestaurantSystem.dll;{D803890C-B711-4FDE-8683-66ED0B1B6408}|eRestaurantSystem.Data.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_3148"
+		Debug.AspNetCompiler.PhysicalPath = "Website\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3148\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_3148"
+		Release.AspNetCompiler.PhysicalPath = "Website\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_3148\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3148"
+		SlnRelativePath = "Website\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0E1FDAB-756C-4193-A8B8-A0B2380A83E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E1FDAB-756C-4193-A8B8-A0B2380A83E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E1FDAB-756C-4193-A8B8-A0B2380A83E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E1FDAB-756C-4193-A8B8-A0B2380A83E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D803890C-B711-4FDE-8683-66ED0B1B6408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D803890C-B711-4FDE-8683-66ED0B1B6408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D803890C-B711-4FDE-8683-66ED0B1B6408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D803890C-B711-4FDE-8683-66ED0B1B6408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB6A8337-BED1-45C0-A879-32D44EDAB835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6A8337-BED1-45C0-A879-32D44EDAB835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB6A8337-BED1-45C0-A879-32D44EDAB835}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB6A8337-BED1-45C0-A879-32D44EDAB835}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
