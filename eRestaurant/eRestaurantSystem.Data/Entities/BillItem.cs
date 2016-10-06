@@ -29,7 +29,7 @@ namespace eRestaurantSystem.Data.Entities
         public string Notes { get; set; }
 
         // Naviagtion Properties
-        public virtual Bill Bills { get; set; }
-        public virtual Item Items { get; set; }
+        public virtual Bill Bill { get; set; }
+        public virtual Item Item { get; set; }
     }
 }

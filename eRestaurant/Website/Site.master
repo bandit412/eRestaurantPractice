@@ -87,6 +87,7 @@
                             <asp:MenuItem Text="LINQ Queries" Value="linq">
                                 <asp:MenuItem Text="Waiter Sample" NavigateUrl="~/Queries/WaiterContactSample.aspx" />
                                 <asp:MenuItem Text="GridView vs. ListView" NavigateUrl="~/Queries/GridViewVSListView.aspx" />
+                                <asp:MenuItem Text="Repeaters" NavigateUrl="~/Queries/RepeaterListView.aspx" />
                             </asp:MenuItem>
                             <asp:MenuItem Text="About" NavigateUrl="~/About.aspx" />
                             <asp:MenuItem Text="Contact" NavigateUrl="~/Contact.aspx" />
@@ -100,7 +101,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - eRestaurant</p>
             </footer>
         </div>
     </form>

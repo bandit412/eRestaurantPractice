@@ -28,9 +28,9 @@ namespace eRestaurantSystem.Data.Entities
         public string Comment { get; set; }
 
         // Navigation Properties
-        public virtual Waiter Waiters { get; set; }
+        public virtual Waiter Waiter { get; set; }
         public virtual ICollection<BillItem> BillItems { get; set; }
-        public virtual Table Tables { get; set; }
+        public virtual Table Table { get; set; }
 
         // Set the BillDate for any new Bill
         public Bill()
