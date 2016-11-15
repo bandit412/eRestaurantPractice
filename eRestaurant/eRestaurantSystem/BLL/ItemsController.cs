@@ -58,5 +58,25 @@ namespace eRestaurantSystem.BLL
                 return results.ToList();
             }
         }
+
+        [DataObjectMethod(DataObjectMethodType.Select, false)]
+        public List<CategoryMenuItems> CategoryMenuItems_GetPOCO()
+        {
+            using (var context = new eRestaurantContext())
+            {
+                var results = from cat in context.Items
+                              orderby cat.MenuCategory.Description, cat.Description
+                              select new CategoryMenuItems
+                              {
+                                  CategoryDescription = cat.MenuCategory.Description,
+                                  ItemDescription = cat.Description,
+                                  Price = cat.CurrentPrice,
+                                  Calories = cat.Calories,
+                                  Comment = cat.Comment
+                              };
+
+                return results.ToList(); // this was .Dump() in Linqpad
+            }
+        }
     }
 }
